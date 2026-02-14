@@ -1,7 +1,7 @@
 import { fetchLatestResults, getStoredPatterns } from './api';
 
 // Replace with your actual Render backend URL after deployment
-const FUSION_SERVER_URL = 'https://your-backend-name-phxf.onrender.com/predict';
+const FUSION_SERVER_URL = 'https://gamegurupre.onrender.com/predict';
 
 // Local fallback prediction
 const localPrediction = (history) => {
